@@ -1,0 +1,234 @@
+
+.homPage{
+    background-color: #F5EAEA;
+}
+
+.homBanner{
+    padding: 90px 15px 0 15px;
+    display: flex;
+    max-width: 100%;
+    height: 60vh;
+}
+
+.banrImg{
+    height: 98%;
+    width: 40vw;
+}
+
+.LTCWTxt{
+    font-size: 7vw;
+    color: #0D3F66;
+    font-weight: bold;
+}
+
+.banrImg2{
+    height: 30%;
+    width: 40vw ;
+}
+
+.HBsub1{
+    /*padding-top: 50px;*/
+    align-self: center;
+}
+.HBsub2{
+    margin-left: 9%;
+    /*padding-top: 50px;*/
+    align-self: center;
+}
+
+.navBtnsGrp{
+    margin-top: 50px;
+    padding: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navBtn1{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin: 20px;
+    height: 110px;
+    width: 120px;
+    border:none;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-image: url("../images/EnqTabImg.png");
+    background-size: contain;
+    box-shadow: 0 0 6px 6px #00000029;
+    cursor: pointer;
+}
+
+.navBtn2{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin: 20px;
+    height: 110px;
+    width: 120px;
+    border:none;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-image: url("../images/RegTabImg.png");
+    background-size: contain;
+    box-shadow: 0 0 6px 6px #00000029;
+    cursor: pointer;
+}
+.navBtn4{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin: 20px;
+    height: 110px;
+    width: 120px;
+    border:none;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-image: url("../images/DocTabImg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 6px 6px #00000029;
+    cursor: pointer;
+}
+
+
+.tabButn{
+    position: relative;
+    font-weight: bold;
+    top: 140px;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    padding: 8px 25px;
+    box-shadow: 0 3px 6px #00000029;
+    cursor: pointer;
+}
+.navPayBtn{
+    display: grid;
+    justify-content: right;
+    font-size: small;
+    padding: 20px;
+    align-self: flex-end;
+}
+.tabPayBtn{
+    position: relative;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    box-shadow: 0 3px 6px #00000029;
+    cursor: pointer;
+}
+
+.navBtn1:hover, .navBtn2:hover, .navBtn3:hover, .navBtn4:hover{
+    box-shadow: 1px 1px 10px 2px #0D3F66;
+    /*transition: 1s ease-in-out;*/
+}
+
+/*__________________________________________*/
+
+
+@media (max-width: 330px) {
+    .homPage{
+        display: grid;
+    }
+    .homBanner {
+        padding-top: 20px;
+        flex-wrap: wrap;
+    }
+
+    .banrImg{
+        height: 98%;
+        width: 80vw;
+        align-self: center;
+    }
+
+    .LTCWTxt {
+        font-size: 15vw;
+        text-align: center;
+        text-align-last: center;
+    }
+
+    .banrImg2 {
+        width: 80vw ;
+        align-self: center;
+    }
+
+    .HBsub1 {
+        display: flex;
+        justify-items: center;
+    }
+
+    .HBsub2 {
+        display: flex;
+        margin-left: 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navBtnsGrp{
+        padding: 0;
+        margin-top: 88vw;
+        margin-bottom: 50px;
+    }
+
+    .navPayBtn{
+        margin-right: 20px;
+    }
+}
+
+
+@media (min-width: 331px)and (max-width: 600px) {
+    .homPage{
+        display: grid;
+    }
+    .homBanner {
+        padding-top: 30px;
+        flex-wrap: wrap;
+    }
+
+    .banrImg{
+        height: 98%;
+        width: 80vw;
+        align-self: center;
+    }
+
+    .LTCWTxt {
+        font-size: 14vw;
+        text-align: center;
+        text-align-last: center;
+    }
+
+    .banrImg2 {
+        width: 80vw ;
+        align-self: center;
+    }
+
+    .HBsub1 {
+        display: flex;
+        justify-items: center;
+    }
+
+    .HBsub2 {
+        display: flex;
+        margin-left: 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .navBtnsGrp{
+        padding: 0;
+        margin-top: 98vw;
+        margin-bottom: 50px;
+    }
+
+    .navPayBtn{
+        margin-right: 20px;
+    }
+
+}
+

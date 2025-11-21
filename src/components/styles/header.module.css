@@ -1,0 +1,45 @@
+.logo {
+    height: 60px;
+    width: 200px;
+    padding: 15px 15px 15px 40px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #F0F0F0;
+    /*border: 10px solid  #095484;*/
+    /*background: linear-gradient(90deg, #095484, #095484, #ffffff, #ffffff, #095484, #095484);*/
+}
+
+@media (max-width: 325px) {
+    .header{
+        align-items: center;
+    }
+    .logo{
+        width: 120px;
+        height: 40px;
+        padding: 8px 8px 8px 20px;
+    }
+}
+@media (max-width: 380px) {
+    .header{
+        align-items: center;
+    }
+    .logo{
+        width: 120px;
+        height: 40px;
+        padding: 8px 8px 8px 20px;
+    }
+}
+@media (max-width: 430px) {
+    .header{
+        align-items: center;
+    }
+    .logo{
+        width: 130px;
+        height: 40px;
+        padding: 8px 8px 8px 20px;
+    }
+}

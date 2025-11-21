@@ -1,0 +1,489 @@
+/*@-webkit-keyframes spin {*/
+/*    100%{-webkit-transform: rotate(0deg);}*/
+/*}*/
+/*@-moz-keyframes spin {*/
+/*    100%{-webkit-transform: rotate(0deg);}*/
+/*}*/
+@keyframes spin {
+    100%{-webkit-transform: rotate(-20deg);}
+}
+
+
+.page {
+    display: flex;
+    padding-top: 25px;
+    background-color: #EBDFD5;
+    padding-bottom: 100px;
+}
+
+.columnOne{
+    margin-right: 35px;
+    margin-left: 15px;
+}
+
+.boxOne{
+    border: none;
+    border-radius: 15px;
+    height: 80vh;
+    width: 30vw;
+    padding: 20px;
+    color: #0D3F66;
+    background-color: #F0F0F0;
+    box-shadow: 0 3px 6px #00000029;
+}
+.boxOneTitle{
+    font-size: 3vw;
+}
+.boxOneDesc{
+    font-size: 1.75vw;
+    font-weight: 600;
+}
+.boxOneImage{
+    height: 29.7vh;
+    width: 20vw;
+}
+
+.boxTwo{
+    border: none;
+    border-radius: 15px;
+    height: 62vh;
+    width: 30vw;
+    margin-top: 50px;
+    padding: 1px 20px 20px 20px;
+    color: #0D3F66;
+    background-color: #F0F0F0;
+    box-shadow: 0 3px 6px #00000029;
+}
+
+.boxTwoImage{
+    height: 20vh;
+    width: 22vw;
+}
+.boxTwoLabel{
+    height: 15vh;
+    width: 8vw;
+    position: relative;
+    bottom: 60%;
+    left: 63%;
+    /*-webkit-animation: spin 1s alternate-reverse infinite;*/
+    /*-moz-animation: spin 1s alternate-reverse infinite;*/
+    animation: spin 1s alternate-reverse infinite;
+}
+
+.columnTwo {
+    display: flex;
+    justify-content: center;
+}
+
+.Card {
+    margin-bottom: 10px;
+    padding:25px;
+    height: 100%;
+    width: 49vw;
+    border-radius: 15px;
+    background-color: #F0F0F0;
+    box-shadow: 0 3px 6px #00000029;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    border: none;
+    padding: 10px 15px;
+    margin-bottom: 40px;
+    background: #EBDFD5;
+    border-radius: 10px;
+    width: 220px;
+    height: 20px;
+}
+
+.headerText{
+    color: #0D3F66;
+    font-size: 20px;
+    font-weight: bold;
+    align-self: center;
+}
+
+.form{
+    margin-bottom: 15px;
+    color: #0D3F66;
+}
+
+.page label{
+    font-weight: bold;
+    color: #0D3F66;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.fieldBox{
+    margin-bottom: 10px;
+}
+
+.input{
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px;
+    width: 40vw;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 3px 6px #00000029;
+}
+
+.twoInputs{
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px;
+    width: 18.5vw;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 3px 6px #00000029;
+}
+
+.input::placeholder,
+.twoInputs::placeholder{
+    color: #212121;
+    opacity: 0.4;
+}
+.inputDates{
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px;
+    font-size: 18px;
+    width: 16vw;
+    cursor: pointer;
+    box-shadow: 0 3px 6px #00000029;
+}
+.twoDates{
+    margin-bottom: 15px;
+    display: flex;
+    column-gap: 3.5vw;
+}
+.enqBoxCorsJob{
+    margin-bottom: 15px;
+    display: flex;
+    column-gap: 5vw;
+}
+.twoDates2{
+    display: grid;
+}
+
+/*.inTxtAd {*/
+/*    border: none;*/
+/*    border-radius: 5px;*/
+/*    padding: 5px;*/
+/*    margin: 5px;*/
+/*    width: 480px;*/
+/*}*/
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    /*column-gap: 4.5vw;*/
+    align-items: center;
+}
+
+.submitButton {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #0D3F66;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 20px;
+    width: 15vw;
+    align-self: center;
+    position: relative;
+    left: 15%;
+    cursor: pointer;
+}
+
+.printButton {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #0D3F66;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 20px;
+    width: 15vw;
+    align-self: center;
+    position: relative;
+    left: 25%;
+    cursor: pointer;
+}
+.submitButton:hover,
+.printButton:hover{
+    background-color: rgba(13, 63, 102, 0.71);
+}
+
+input{
+    cursor: pointer;
+}
+
+.error{
+    color: red;
+    margin-left: 5px;
+}
+
+.errorText{
+    display: flex;
+    font-size:15px;
+    color: red;
+    margin-left:5px;
+}
+
+.genderDropdown{
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px;
+    width: 18vw;
+    font-size: 18px;
+    max-width: 400px;
+    cursor: pointer;
+    box-shadow: 0 3px 6px #00000029;
+    border-right: 8px solid transparent;
+}
+
+.courseDropdown{
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px;
+    font-size: 15px;
+    width: 15.5vw;
+    cursor: pointer;
+    box-shadow: 0 3px 6px #00000029;
+    border-right: 8px solid transparent;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input[type=checkbox]{
+    margin-top: 10px;
+}
+
+/*__________________________________________________*/
+
+
+@media (max-width: 330px) {
+
+    .page {
+        display: grid;
+        grid-gap: 30px;
+    }
+    /*.mainClass{*/
+    /*    display: grid;*/
+    /*}*/
+    .columnOne{
+        display: none;
+    }
+    .columnTwo{
+        width: 100%;
+    }
+    .headerText{
+        font-size: 90%;
+    }
+
+    .Card{
+        width: 80vw;
+    }
+
+    .page label{
+        font-size: 90%;
+    }
+
+    .input{
+        width: 90%;
+        font-size: 80%;
+    }
+
+    .twoInputs{
+        font-size: 80%;
+        width: 90%;
+    }
+    .genderDropdown{
+        font-size: 80%;
+        width: 90%;
+    }
+    .inputDates{
+        width:80%;
+        padding: 8px;
+        margin: 5px;
+        font-size: 80%;
+    }
+    .courseDropdown{
+        width:80%;
+        padding: 8px;
+        margin: 5px;
+        font-size: 80%;
+    }
+    .twoDates{
+        margin-bottom: 15px;
+        display: flex;
+        column-gap: 1%;
+    }
+
+    .twoDates2{
+        row-gap: 4%;
+        width: 50%;
+    }
+
+    .submitButton{
+        font-size: 80%;
+        width: 35%;
+        left: 10%;
+    }
+    .printButton{
+        font-size: 80%;
+        width: 35%;
+        left: 20%
+    }
+    .errorText{
+        font-size: 70%;
+    }
+    .boxTwo {
+        height: 70vh;
+        width: 72vw;
+    }
+
+    .boxTwoImage {
+        height: 20vh;
+        width: 60vw;
+    }
+
+    .boxTwoLabel {
+        height: 80px;
+        width: 80px;
+        position: relative;
+        bottom: 81%;
+        left: 67%;
+    }
+    .boxOneDesc {
+        font-size: 100%;
+        font-weight: 600;
+    }
+
+    .boxOneTitle {
+        font-size: 180%;
+    }
+}
+
+@media (min-width: 331px)and (max-width: 600px) {
+
+    .page {
+        display: grid;
+        grid-gap: 30px;
+    }
+    /*.mainClass{*/
+    /*    display: grid;*/
+    /*}*/
+    .columnOne{
+        display: none;
+    }
+    .columnTwo{
+        width: 100%;
+    }
+    .headerText{
+        font-size: 90%;
+    }
+
+    .Card{
+        width: 80vw;
+    }
+
+    .page label{
+        font-size: 90%;
+    }
+
+    .input{
+        width: 90%;
+        font-size: 80%;
+    }
+
+    .twoInputs{
+        font-size: 80%;
+        width: 90%;
+    }
+    .genderDropdown{
+        font-size: 80%;
+        width: 90%;
+    }
+    .inputDates{
+        width:80%;
+        padding: 8px;
+        margin: 5px;
+        font-size: 80%;
+    }
+    .courseDropdown{
+        width:80%;
+        padding: 8px;
+        margin: 5px;
+        font-size: 80%;
+    }
+    .twoDates{
+        margin-bottom: 15px;
+        display: flex;
+        column-gap: 1%;
+    }
+
+    .twoDates2{
+        row-gap: 4%;
+        width: 50%;
+    }
+
+    .submitButton{
+        font-size: 80%;
+        width: 35%;
+        left: 10%;
+    }
+    .printButton{
+        font-size: 80%;
+        width: 35%;
+        left: 20%
+    }
+    .errorText{
+        font-size: 70%;
+    }
+    .boxTwo {
+        height: 65vh;
+        width: 76vw;
+    }
+
+    .boxTwoImage {
+        height: 20vh;
+        width: 60vw;
+    }
+
+    .boxTwoLabel {
+        height: 80px;
+        width: 80px;
+        position: relative;
+        bottom: 64%;
+        left: 64%;
+    }
+    .boxOneDesc {
+        font-size: 110%;
+        font-weight: 600;
+    }
+
+    .boxOneTitle {
+        font-size: 200%;
+    }
+}
